@@ -128,4 +128,93 @@ K-Means with five clusters was selected to obtain more detailed and actionable c
 
 | Customer Segment | Recommended Strategy |
 |---|---|
-| High-Value Frequent Customers | Loyalty rewards and
+| High-Value Frequent Customers | Loyalty rewards and personalized recommendations |
+| Recent One-Time Customers | Second-purchase incentives |
+| Repeat Customers | Retention campaigns and personalized offers |
+| Inactive / At-Risk Customers | Re-engagement campaigns |
+| High-Spending At-Risk Customers | Personalized win-back offers |
+
+## Project Structure
+
+```text
+RetailIQ/
+│
+├── Ecommerce.csv
+├── RetailIQ_Implementation.ipynb
+├── app.py
+│
+├── RetailIQ_Graphs/
+│
+├── RetailIQ_Model_Comparison.csv
+├── RetailIQ_Feature_Set_Comparison.csv
+├── RetailIQ_Customer_Segments.csv
+├── RetailIQ_Segment_Summary.csv
+├── RetailIQ_Business_Recommendations.csv
+│
+└── README.md
+```
+
+*Note: Update this structure to match the actual files and folders in your GitHub repository.*
+
+## How to Run the Project
+
+### Step 1: Clone the Repository
+
+```bash
+git clone https://github.com/VishnuPriyaKodali/KLH-CSE-2026-27-2420030630-RetailIQ-Full-Cycle-E-Commerce-Customer-Sales-Analytics
+```
+
+### Step 2: Navigate to the Project Folder
+
+```bash
+cd RetailIQ
+```
+
+### Step 3: Install Required Libraries
+
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn streamlit jupyter
+```
+
+### Step 4: Run the Jupyter Notebook
+
+```bash
+jupyter notebook RetailIQ_Implementation.ipynb
+```
+
+Run the notebook cells to explore the data analysis and machine learning workflow.
+
+### Step 5: Launch the Streamlit Dashboard
+
+```bash
+streamlit run app.py
+```
+
+Open the local URL displayed in the terminal, usually:
+
+```text
+http://localhost:8501
+```
+
+**Dataset Note:** Place `Ecommerce.csv` in the expected project location before running the notebook or dashboard. Check the file paths in the code if your folder structure differs.
+
+## Future Scope
+
+- Integrating real-time e-commerce data.
+- Exploring additional customer segmentation techniques.
+- Improving prediction and recommendation capabilities.
+- Extending the dashboard with more interactive analytical features.
+
+## Conclusion
+
+RetailIQ demonstrates a complete data analytics and machine learning workflow for understanding e-commerce customer behaviour and sales performance. By combining exploratory analysis, RFM-based customer segmentation, clustering model evaluation, and an interactive dashboard, the project provides useful insights that can support data-driven business decisions.
+
+## Project Team
+
+- Vishnu Priya Kodali
+- Ivaturi Vennela
+- Lakshman Angara
+
+**Institution:** Koneru Lakshmaiah Education Foundation
+
+**Academic Year:** 2026–2027
